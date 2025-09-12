@@ -1,0 +1,85 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 5px rgba(108,99,255,0.4);
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background: #6c63ff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #574fd6;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+  }
+  
+  .saved-data {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
